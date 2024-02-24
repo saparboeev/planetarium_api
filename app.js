@@ -8,7 +8,7 @@ const connectDb = require("./config/db");
 //Initialize env variables
 dotenv.config();
 
-//Connect to Database
+//Connect to Database //
 connectDb();
 
 //App instance from express
